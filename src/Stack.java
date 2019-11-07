@@ -25,7 +25,7 @@ public class Stack<E> extends Vector {
             return null;
         }
         E tmp = (E) obj[size - 1];
-        return tmp; 
+        return tmp;
     }
 
 }
