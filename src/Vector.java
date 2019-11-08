@@ -20,7 +20,7 @@ public abstract class Vector<E> {
     }
 
     void expand(){
-        E tmp[] = (E[]) new Object[obj.length*2+1];
+        E[] tmp = (E[]) new Object[obj.length*2+1];
         System.arraycopy(obj,0,tmp,0,obj.length);
         obj = tmp;
     }
