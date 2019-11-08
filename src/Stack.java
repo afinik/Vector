@@ -59,30 +59,8 @@ public class Stack<E> extends Vector {
         }
     }
 
-    public void clear(){
-        if (size == 0){
-            return;
-        }else {
-            E[] obj = (E[]) new Object[size];
-        }
-    }
 
-    public boolean contains(Object element){
-        for (Object el: obj) {
-            if (el.equals(element)){
-                return true;
-            }
-        }
-        return false;
-    }
 
-    public boolean isEmpty(){
-        for (Object el: obj) {
-            if(el != null){
-                return false;
-            }
-        }
-        return true;
-    }
+
 
 }
